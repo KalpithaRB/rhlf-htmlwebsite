@@ -74,7 +74,7 @@
   --cleenhearts-text-gray-rgb: 170, 150, 180;
   --cleenhearts-text-gray2: #888888;
   --cleenhearts-text-gray2-rgb: 136, 136, 136;
-  --cleenhearts-base: #351C42;
+  --cleenhearts-base: #E64994;
   --cleenhearts-base-rgb: 53, 28, 66;
   --cleenhearts-secondary: #E64994;
   --cleenhearts-secondary-rgb: 246, 212, 105;
@@ -20703,7 +20703,7 @@ li:hover .sidebar__comments__icon::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(99deg, #965995 27.6%, rgba(150, 89, 149, 0) 99.42%);
+  background: linear-gradient(99deg, #E64994 27.6%, rgba(150, 89, 149, 0) 99.42%);
 }
 .donars-one--home .sec-title__tagline {
   color: var(--cleenhearts-white, #fff);
