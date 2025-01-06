@@ -26,6 +26,8 @@
 
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="rhlf-htmlwebsite-Kalpi\assets\css\styles1.css">
+
     <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
@@ -41,6 +43,7 @@
     <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="/assets/css/Footer.css" <!-- template styles -->
     <link rel="stylesheet" href="assets/css/cleenhearts.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
 
     <style>
         /* For Webkit Browsers */
@@ -98,7 +101,47 @@
         .Media:hover .caretbibi-caret-down-fill {
             transform: rotate(180deg);
         }
+
+        /* For smaller screens, move the white box (containing info) slightly upwards */
+        /* For smaller screens, move the white box (containing info) slightly upwards and to the left */
+        /* For smaller screens, move the white box (containing info) slightly upwards and to the left */
+        /* For smaller screens, move the white box (containing info) slightly upwards and more to the left */
+        /* For smaller screens, move the white box (containing info) more to the left and slightly down */
+        /* For smaller screens, move the white box (containing info) more to the left and slightly down */
+        /* For smaller screens, move the white box (containing info) slightly down and more to the left */
+        /* For smaller screens, move the white box (containing info) slightly more down */
+        /* For smaller screens, move the white box (containing info) further down */
+        /* For smaller screens, move the white box (containing info) further down */
+        /* Move the white box (containing info) further down */
+        @media (max-width: 575px) {
+            .about-one__profile {
+                bottom: 30px;
+                /* Move it more down */
+                left: -240px;
+                /* Keep it left */
+            }
+        }
+
+        @media (max-width: 425px) {
+            .about-one__profile {
+                bottom: 50px;
+                /* Move it more down */
+                left: -260px;
+                /* Keep it left */
+            }
+        }
+
+        @media (max-width: 375px) {
+            .about-one__profile {
+                bottom: 60px;
+                /* Move it further down */
+                left: -290px;
+                /* Keep it left */
+            }
+        }
     </style>
+
+
 
 </head>
 
@@ -125,22 +168,22 @@
                             <ul class="main-menu__list">
 
 
-                                <li class="megamenu megamenu-clickable ">
+                                <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
                                     <a href="index.html">Home</a>
                                 </li>
 
 
                                 <li class="dropdown">
-                                    <a href="#" class="AbUS">About Us <svg xmlns="http://www.w3.org/2000/svg"
+                                    <a href="about.html" class="AbUS">About Us <svg xmlns="http://www.w3.org/2000/svg"
                                             width="16" height="16" fill="currentColor" class="caretbibi-caret-down-fill"
                                             viewBox="0 0 16 16">
                                             <path
                                                 d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                         </svg></a>
                                     <ul>
-                                        <li><a href="WhoareWe.html">Who Are We</a></li>
-                                        <li><a href="OurTeam.html">Our Team</a></li>
-                                        <li><a href="OurLegal.html">Our Legal</a></li>
+                                        <li><a href="about.html">Who Are We</a></li>
+                                        <li><a href="./MainPages/OurTeam.html">Our Team</a></li>
+                                        <li><a href="./MainPages/OurLegal.html">Our Legal</a></li>
                                         <li><a href="./MainPages/OurPartners.html">Our Partners</a></li>
                                     </ul>
                                 </li>
@@ -509,44 +552,55 @@
             </div><!-- /.cta-one__shape-two -->
             <div class="container">
                 <div class="sec-title">
-                    <h6 class="sec-title__tagline sec-title__tagline--center">HELP & DONATE US</h6>
+                    <h6 class="sec-title__tagline sec-title__tagline--center">Our Camping</h6>
                     <!-- /.sec-title__tagline -->
                 </div><!-- /.sec-title -->
             </div><!-- /.container -->
             <div class="help-donate-one__slide">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">medical</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">education</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">foods</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">health</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">support</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">donation</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">medical</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">education</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">foods</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">health</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--one">support</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
+                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image"
+                    style="filter: grayscale(100%) brightness(0);">
                 <span
                     class="help-donate-one__text help-donate-one__text--two">donation</span><!-- /.help-donate-one__text -->
             </div><!-- /.help-donate-one__slide -->
@@ -589,6 +643,7 @@
                 }
             }
             }'>
+
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="donation-card @@extraClassName" style="border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -617,60 +672,77 @@
                             </a><!-- /.donation-card__image -->
 
                             <div class="donation-card__content" style="padding: 20px;">
-                                <h3 class="donation-card__title"><a href="donation-details-right.html">Give Children's
-                                        Good medical support</a></h3>
+                                <h3 class="donation-card__title"><a href="donation-details-right.html"
+                                        style="color: inherit; text-decoration: none;">Give Children's
+                                        Good medical support
+
+
+
+
+
+                                    </a></h3>
                                 <!-- /.donation-card__title -->
                                 <p class="author" style="font-size: 14px;
-                                    color: #555;">By Krishna Prasad</p>
+                                    color: #555;"> <a href="donation-details-right.html">By Krishna Prasad</a></p>
                                 <div class="donation-card__progress1" style="margin-bottom: 15px;">
+                                    <a href="donation-details-right.html">
+                                        <div class="progress-bar1"
+                                            style="height: 6px;
+                                                                                                                                                 border-radius: 3px;
+                                                                                                                                                 background-color: transparent; /* Remove white box */
+                                                                                                                                                 margin: 10px 0;
+                                                                                                                                                 position: relative; /* For overlay positioning */">
+                                            <div class="progress1"
+                                                style="width: 20%;
+                                                                                                                                                  height: 100%;
+                                                                                                                                                  background-color: #4caf50; /* Green progress bar color */
+                                                                                                                                                  border-radius: 3px;">
+                                            </div>
 
-                                    <div class="progress-bar1"
-                                        style="height: 6px;
-                                                                                                     border-radius: 3px;
-                                                                                                     background-color: transparent; /* Remove white box */
-                                                                                                     margin: 10px 0;
-                                                                                                     position: relative; /* For overlay positioning */">
-                                        <div class="progress1"
-                                            style="width: 20%;
-                                                                                                      height: 100%;
-                                                                                                      background-color: #4caf50; /* Green progress bar color */
-                                                                                                      border-radius: 3px;"></div>
+                                        </div>
 
-                                    </div>
+                                    </a>
 
                                     <div class="donation-card__progress__bottom">
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                           color: #757575;">
-                                            Raised ₹<span>80,050</span>
+                                            Raised $<span>80,050</span>
                                         </h5>
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                           color: #757575;">
-                                            Goal ₹<span>90,000</span>
+                                            Goal $<span>90,000</span>
                                         </h5>
                                     </div><!-- /.donation-card__progress__bottom -->
                                 </div><!-- /.donation-card__progress -->
 
 
                             </div><!-- /.donation-card__content -->
-                            <div class="actions" style="display: flex;
-                                    justify-content: space-between;
-                                    margin-top: 10px;">
-                                <button class="share-button" style="padding: 8px 12px;
-                                    border: none;
-                                    border-radius: 4px;
-                                    cursor: pointer;background-color: white;
-                                    color: rgb(113, 172, 211);
-                                    border: 2px solid rgb(113, 172, 211);">Share</button>
-                                <button class="donate-button" style="padding: 8px 12px;
-                                    border: none;
-                                    border-radius: 4px;
-                                    cursor: pointer;background-color: #ff007f;
-                                    color: #fff;">Donate Now</button>
-                            </div>
+                            <div class="actions"
+                                style="display: flex; justify-content: space-between; margin-top: 10px;">
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="share-button31"
+                                        style="padding: 8px 12px; border: none; border-radius: 4px; cursor: pointer; background-color: white; color: rgb(113, 172, 211); border: 2px solid rgb(113, 172, 211);"><a
+                                            href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">
+                                            Share
+                                        </a>
+                                    </button>
+                                </a>
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="donate-button31"
+                                        style="padding: 8px 12px; border: none; border-radius: 4px; cursor: pointer; background-color: #ff007f; color: #fff;"><a
+                                            href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">
+                                            Donate Now</a>
+                                    </button>
+                                </a>
+                            </div><!-- /.actions -->
                         </div><!-- /.donation-card -->
                     </div><!-- /.item -->
+
+
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="donation-card @@extraClassName" style="border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -699,7 +771,8 @@
                             </a><!-- /.donation-card__image -->
                             <div class="donation-card__content" style="padding: 20px;">
 
-                                <h3 class="donation-card__title"><a href="donation-details-right.html">Let’s education
+                                <h3 class="donation-card__title"><a href="donation-details-right.html">Let’s
+                                        education
                                         for children get good life</a></h3>
                                 <!-- /.donation-card__title -->
                                 <p class="author" style="font-size: 14px;
@@ -722,11 +795,11 @@
                                     <div class="donation-card__progress__bottom">
                                         <h5 class="donation-card__progress__title" style="font-size: 14px;
                                                                                           color: #757575;">
-                                            Raised ₹<span>80,050</span>
+                                            Raised $<span>80,050</span>
                                         </h5>
                                         <h5 class="donation-card__progress__title" style="font-size: 14px;
                                                                                           color: #757575;">
-                                            Goal ₹<span>90,000</span>
+                                            Goal $<span>90,000</span>
                                         </h5>
                                     </div><!-- /.donation-card__progress__bottom -->
                                 </div><!-- /.donation-card__progress -->
@@ -737,21 +810,28 @@
                             <div class="actions" style="display: flex;
     justify-content: space-between;
     margin-top: 10px;">
-                                <button class="share-button" style="padding: 8px 12px;
+                                <a href="donation-details-right.html" style="color: inherit; text-decoration: none;">
+                                    <button id="share-button31" style="padding: 8px 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;background-color: white;
     color: rgb(113, 172, 211);
     border: 2px solid rgb(113, 172, 211);">Share</button>
-                                <button class="donate-button" style="padding: 8px 12px;
+                                </a>
+                                <a href="donation-details-right.html" style="color: inherit; text-decoration: none;">
+                                    <button id="donate-button31" style="padding: 8px 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;background-color: #ff007f;
-    color: #fff;">Donate Now</button>
+    color: #fff;">Donate
+                                        Now</button>
+                                </a>
                             </div>
 
                         </div><!-- /.donation-card -->
                     </div><!-- /.item -->
+
+
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                         <div class="donation-card @@extraClassName" style="border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -779,7 +859,8 @@
     font-weight: bold;">Foods</div><!-- /.donation-card__category -->
                             </a><!-- /.donation-card__image -->
                             <div class="donation-card__content">
-                                <h3 class="donation-card__title"><a href="donation-details-right.html">Raise funds for
+                                <h3 class="donation-card__title"><a href="donation-details-right.html">Raise funds
+                                        for
                                         Clean and Healthy food</a></h3>
                                 <!-- /.donation-card__title -->
                                 <p class="author" style="font-size: 14px;
@@ -805,33 +886,42 @@
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                                                           color: #757575;">
-                                            Raised ₹<span>80,050</span>
+                                            Raised $<span>80,050</span>
                                         </h5>
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                                                           color: #757575;">
-                                            Goal ₹<span>90,000</span>
+                                            Goal $<span>90,000</span>
                                         </h5>
                                     </div><!-- /.donation-card__progress__bottom -->
                                 </div><!-- /.donation-card__progress -->
                             </div><!-- /.donation-card__content -->
+
                             <div class="actions" style="display: flex;
                                 justify-content: space-between;
                                 margin-top: 10px;">
-                                <button class="share-button" style="padding: 8px 12px;
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="share-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: white;
                                 color: rgb(113, 172, 211);
-                                border: 2px solid rgb(113, 172, 211);">Share</button>
-                                <button class="donate-button" style="padding: 8px 12px;
+                                border: 2px solid rgb(113, 172, 211);"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">Share</a></button>
+                                </a>
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="donate-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: #ff007f;
-                                color: #fff;">Donate Now</button>
+                                color: #fff;"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">Donate Now</a></button>
+                                </a>
+
                             </div>
                         </div><!-- /.donation-card -->
                     </div><!-- /.item -->
+
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="donation-card @@extraClassName" style="border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -885,12 +975,12 @@
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                           color: #757575;">
-                                            Raised ₹<span>80,050</span>
+                                            Raised $<span>80,050</span>
                                         </h5>
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                           color: #757575;">
-                                            Goal ₹<span>90,000</span>
+                                            Goal $<span>90,000</span>
                                         </h5>
                                     </div><!-- /.donation-card__progress__bottom -->
                                 </div><!-- /.donation-card__progress -->
@@ -900,21 +990,28 @@
                             <div class="actions" style="display: flex;
                                 justify-content: space-between;
                                 margin-top: 10px;">
-                                <button class="share-button" style="padding: 8px 12px;
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="share-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: white;
                                 color: rgb(113, 172, 211);
-                                border: 2px solid rgb(113, 172, 211);">Share</button>
-                                <button class="donate-button" style="padding: 8px 12px;
+                                border: 2px solid rgb(113, 172, 211);"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">Share</a></button>
+                                </a>
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="donate-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: #ff007f;
-                                color: #fff;">Donate Now</button>
+                                color: #fff;"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;">Donate Now</a></button>
+                                </a>
                             </div>
 
                         </div><!-- /.donation-card -->
                     </div><!-- /.item -->
+
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                         <div class="donation-card @@extraClassName" style="border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -970,12 +1067,12 @@
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                                                           color: #757575;">
-                                            Raised ₹<span>80,050</span>
+                                            Raised $<span>80,050</span>
                                         </h5>
                                         <h5 class="donation-card__progress__title"
                                             style="font-size: 14px;
                                                                                                                                                           color: #757575;">
-                                            Goal ₹<span>90,000</span>
+                                            Goal $<span>90,000</span>
                                         </h5>
                                     </div><!-- /.donation-card__progress__bottom -->
                                 </div><!-- /.donation-card__progress -->
@@ -984,21 +1081,28 @@
                             <div class="actions" style="display: flex;
                                 justify-content: space-between;
                                 margin-top: 10px;">
-                                <button class="share-button" style="padding: 8px 12px;
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="share-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: white;
                                 color: rgb(113, 172, 211);
-                                border: 2px solid rgb(113, 172, 211);">Share</button>
-                                <button class="donate-button" style="padding: 8px 12px;
+                                border: 2px solid rgb(113, 172, 211);"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;"></a>Share</button>
+                                </a>
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <button id="donate-button31" style="padding: 8px 12px;
                                 border: none;
                                 border-radius: 4px;
                                 cursor: pointer;background-color: #ff007f;
-                                color: #fff;">Donate Now</button>
+                                color: #fff;"><a href="donation-details-right.html"
+                                            style="color: inherit; text-decoration: none;"></a>Donate Now</button>
+                                </a>
                             </div>
 
                         </div><!-- /.donation-card -->
                     </div><!-- /.item -->
+                    </a>
                 </div><!-- /.donations-one__carousel -->
                 <div class="donations-one__row row gutter-y-30">
                     <div class="col-xl-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
@@ -1152,40 +1256,40 @@
         <!-- --------------------------------------------------------------------------------------------- -->
         <section class="events-one section-space">
             <!-- <div class="container"> -->
-                <div class="sec-title">
+            <div class="sec-title">
 
-                    <h6 class="sec-title__tagline sec-title__tagline--center">Worldwide non profit charity</h6>
-                    <!-- /.sec-title__tagline -->
+                <h6 class="sec-title__tagline sec-title__tagline--center">Worldwide non profit charity</h6>
+                <!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title">Our <span class="sec-title__title__inner">Impacts</span></h3>
-                    <!-- /.sec-title__title -->
-                </div><!-- /.sec-title -->
+                <h3 class="sec-title__title">Our <span class="sec-title__title__inner">Impacts</span></h3>
+                <!-- /.sec-title__title -->
+            </div><!-- /.sec-title -->
             <!-- </div>/.container -->
-            
+
             <div class="card-container">
                 <div class="card">
-                <img src="assets/images/inspiring/child welfare.jpg" alt="Child Welfare Program Image">
-                <div class="card-content">
-                    <p>Our</p>
-                    <h5>Child Welfare programs</h5>
-                    <p>aim to improve access to education and essential
-                        services for children. We provide meals, school supplies, and support to help
-                        children thrive in their communities.</p>
-                    <button>Donate Now</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/images/inspiring/inspiring-1-1.jpg" alt="Education Program Image">
-                <div class="card-content">
-                    <p>Our</p>
-                    <h5>Mission Education Program</h5>
-                    <p>to reintegrate dropout children into
-                        mainstream education, providing them with resources, counselling, and support
-                        to ensure they thrive academically and develop positive habits.</p>
+                    <img src="assets/images/inspiring/child welfare.jpg" alt="Child Welfare Program Image">
+                    <div class="card-content">
+                        <p>Our</p>
+                        <h5>Child Welfare programs</h5>
+                        <p>aim to improve access to education and essential
+                            services for children. We provide meals, school supplies, and support to help
+                            children thrive in their communities.</p>
                         <button>Donate Now</button>
                     </div>
                 </div>
-                
+                <div class="card">
+                    <img src="assets/images/inspiring/inspiring-1-1.jpg" alt="Education Program Image">
+                    <div class="card-content">
+                        <p>Our</p>
+                        <h5>Mission Education Program</h5>
+                        <p>to reintegrate dropout children into
+                            mainstream education, providing them with resources, counselling, and support
+                            to ensure they thrive academically and develop positive habits.</p>
+                        <button>Donate Now</button>
+                    </div>
+                </div>
+
                 <div class="card">
                     <img src="assets/images/inspiring/inspiring-1-2.jpg" alt="Rescue and Rehabilitation Program Image">
                     <div class="card-content">
@@ -1193,19 +1297,19 @@
                         <h5 class="inline-text">Rescuing</h5>
                         <p class="inline-text">and</p>
                         <h5 class="inline-text">Rehabilitating</h5>
-                    <p>individuals and animals in need,
-                        ensuring their safety and well-being. Our programs provide essential care
-                        and resources for both people and animals.</p>
-                    <button>Donate Now</button>
+                        <p>individuals and animals in need,
+                            ensuring their safety and well-being. Our programs provide essential care
+                            and resources for both people and animals.</p>
+                        <button>Donate Now</button>
+                    </div>
+
+
+                    <div class="view-more-button"></div>
+                    <a href="#" class="view-more-button"> View More ></a>
                 </div>
-
-
-                <div class="view-more-button"></div>
-                <a href="#" class="view-more-button"> View More ></a>
             </div>
-        </div>
-    </section><!-- /.events-one section-space -->
-        
+        </section><!-- /.events-one section-space -->
+
         <section class="testimonials-one section-space">
             <div class="testimonials-one__bg cleenhearts-jarallax" data-jarallax data-speed="0.3"
                 data-imgPosition="50% -100%"
@@ -1361,7 +1465,7 @@
             </div><!-- /.testimonials-one__shape -->
         </section><!-- /.testimonials-one section-space -->
 
-        
+
 
         <section class="help-people" style="background-image: url('assets/images/backgrounds/help-people-bg-1.png');">
             <div class="container">
@@ -1661,7 +1765,7 @@
                     <h6 class="sec-title__tagline sec-title__tagline--center">OUR DONARS</h6>
                     <!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title">Our Top <span class='sec-title__title__inner'>Donor</span></h3>
+                    <h3 class="sec-title__title">Top <span class='sec-title__title__inner'>Donor</span> Countries</h3>
                     <!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="donars-one__row donars-one__row--top">
@@ -2283,6 +2387,8 @@
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
     <!-- template js -->
     <script src="assets/js/cleenhearts.js"></script>
+
+
 </body>
 
 
